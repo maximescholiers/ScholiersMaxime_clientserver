@@ -1,12 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>r0832442's Webpagina</title>
-</head>
-<body bgcolor="#9370db">
+<html lang="nl">
 
-<button style="position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);border: none;"  onclick="location.href='DynamischePagina'" id="linkToSecondPage">Klik mij voor een random nummer</button>
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a class="active" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="toevoegen.html">Toevoegen</a>
+                </li>
+                <li>
+                    <a href="overzicht.html">Overzicht</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Auto Garage Heverlee</h1>
+        <div class="grid">
+            <p>Overzicht van mijn auto's in mijn Garage</p>
+            <p>Locatie:</p>
+        </div>
+        <div class="grid">
+            <img src="garage_foto.jpg" alt="Foto van mijn garage.">
+            <iframe
+                src="https://maps.google.com/maps?q=ucll%20%20campus%20proximus&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <p>Author: Maxime Scholiers<br>
+            <a href="mailto:maxime.scholiers@student.ucll.be">maxime.scholiers@student.ucll.be</a>
+        </p>
+    </footer>
 
 </body>
+
+
 </html>

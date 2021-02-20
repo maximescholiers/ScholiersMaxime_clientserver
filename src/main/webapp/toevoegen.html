@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <title>Toevoegen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="active" href="toevoegen.html">Toevoegen</a>
+                </li>
+                <li>
+                    <a href="overzicht.html">Overzicht</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="formulier">
+            <form action="overzicht.html" class="formulier2">
+                <input type="text" id="automerk" name="automerk" placeholder="Automerk" required>
+                <input type="text" id="bouwjaar" name="bouwjaar" placeholder="Bouwjaar" required>
+                <textarea id="opmerkingen" name="opmerkingen" placeholder="Opmerkingen" style="height:200px"></textarea>
+                <div class="radio">
+                    <input type="radio" name="type" value="Manueel"> Manueel
+                </div>
+                <div class="radio">
+                    <input type="radio" name="type" value="Automaat"> Automaat
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>Author: Maxime Scholiers<br>
+            <a href="mailto:maxime.scholiers@student.ucll.be">maxime.scholiers@student.ucll.be</a>
+        </p>
+    </footer>
+
+</body>
+
+
+</html>
